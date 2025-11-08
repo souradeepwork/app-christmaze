@@ -1,0 +1,44 @@
+# Dependencies
+node_modules
+package-lock.json
+
+# Next.js
+.next/
+out/
+build/
+dist/
+
+# Production
+.vercel
+.turbo
+
+# Environment variables
+.env
+.env*.local
+.env.production
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+coverage/
+.nyc_output/
+
+# Misc
+*.log
+.cache/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
